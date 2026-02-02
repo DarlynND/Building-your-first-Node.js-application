@@ -1,0 +1,23 @@
+{
+  "name": "first-nodejs-application",
+  "version": "1.0.0",
+  "description": "Building your first Node.js application with built-in, local, and third-party modules",
+  "main": "main.js",
+  "scripts": {
+    "task1": "node readFile.js",
+    "task2": "node main.js",
+    "task3": "node emailSender.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "fs",
+    "modules",
+    "nodemailer"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemailer": "^6.9.7"
+  }
+}
